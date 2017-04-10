@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.malarkey.glasgowcitycouncil.CommentListing">
+
+    <Button
+        android:id="@+id/btnBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        style="@style/GCCButtonPrimary"
+        android:onClick="backButton"
+        android:text="@string/btnBack"
+
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Article Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorPrimary"
+        android:padding="20dp"
+        android:id="@+id/lblArticleName"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/lblOutput"
+        android:textStyle="italic"/>
+
+    <ListView
+        android:id="@+id/commentListing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+
+
+
+</LinearLayout>

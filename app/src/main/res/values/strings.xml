@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GlasgowCityCouncil</string>
+    <string name="parkText">Parks</string>
+    <string name="parkButton">Park Button</string>
+    <string name="cultureText">Culture</string>
+    <string name="cultureButton">Culture Button</string>
+    <string name="sportText">Sport</string>
+    <string name="sportButton">Sport Button</string>
+    <string name="eventsText">Events</string>
+    <string name="eventsButton">Events Button</string>
+
+    <string name="topRatedText">Top Rated</string>
+    <string name="topRatedButton">Top Rated Button</string>
+
+    <string name="settingsText">Settings</string>
+    <string name="settingsButton">Settings Button</string>
+    <string name="lblUsername_LoginActivity">Username:</string>
+    <string name="btnSubmit_LoginActivity">Login</string>
+    <string name="btnRegister_LoginActivity">Register</string>
+    <string name="txtUsername_LoginActivity">Name</string>
+    <string name="lblPassword_LoginActivity">Password:</string>
+    <string name="btnLogout_LoggedInHome">Logout</string>
+    <string name="lblLoginHeader_LoginActivity">Please Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lblContactInfo_ArticleFrag">Contact Information</string>
+    <string name="altGlasgowLogo_SplashSreen">Glasgow City Council Logo</string>
+    <string name="title_activity_comment_test">CommentTest</string>
+    <string name="btnBack"><![CDATA[< BACK]]></string>
+    <string name="altLogo">GlasgowCityLogo</string>
+</resources>

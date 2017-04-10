@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- CONTENT ACTIVITY STYLES-->
+    <style name="ContentHeading" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="contact_icons">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="ContentText" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="GCCButton">
+        <item name="android:padding">10dp</item>
+
+    </style>
+
+    <style name="GCCButtonPrimary" parent="GCCButton">
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:background">@drawable/corners_primary</item>
+    </style>
+
+    <style name="GCCButtonPrimaryTransparent" parent="GCCButton">
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:background">@drawable/corners_primary_transparent</item>
+    </style>
+
+    <style name="GCCButtonPrimaryDark" parent="GCCButton">
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:background">@drawable/corners_primary_dark</item>
+    </style>
+
+    <style name="GCCButtonAccent" parent="GCCButton">
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:background">@drawable/corners_accent</item>
+    </style>
+
+    <style name="Contrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/whiteText</item>
+    </style>
+
+    <style name="errorText" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

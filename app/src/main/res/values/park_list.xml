@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="park_list">
+        <item>Alexandra Park</item>
+        <item>Auchinlea Park</item>
+        <item>Bellahouston Park</item>
+        <item>Cathkin Braes Country Park</item>
+        <item>Kelvingrove Park</item>
+    </string-array>
+</resources>

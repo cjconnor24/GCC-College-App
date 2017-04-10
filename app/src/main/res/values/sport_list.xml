@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sport_list">
+        <item>Celtic Park</item>
+        <item>Commonwealth Arena and Sir Chris Hoy Velodrome</item>
+        <item>Firhill Park</item>
+        <item>Hampden Park</item>
+        <item>Ibrox Park</item>
+
+    </string-array>
+</resources>

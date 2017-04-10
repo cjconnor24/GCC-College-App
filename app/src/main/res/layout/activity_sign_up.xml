@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fillViewport="true"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="com.malarkey.glasgowcitycouncil.SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:padding="20dp"
+            android:src="@drawable/splash_logo"
+            android:contentDescription="@string/altLogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:paddingTop="10dp"
+            android:text="Please register using the form below"
+            android:textColor="@color/whiteText"
+
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/login_txt_padding"
+                android:background="@drawable/corners_white"
+                android:ems="10"
+                android:fontFamily="@string/altGlasgowLogo_SplashSreen"
+                android:hint="Choose a username"
+                android:inputType="textPersonName"
+                android:padding="@dimen/login_txt_padding"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtFirstName"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/login_txt_padding"
+                android:background="@drawable/corners_white"
+                android:ems="10"
+                android:fontFamily="@string/altGlasgowLogo_SplashSreen"
+                android:hint="First name"
+                android:layout_marginRight="10dp"
+                android:inputType="textPersonName"
+                android:padding="@dimen/login_txt_padding"
+                android:textAlignment="center" />
+
+
+            <EditText
+                android:id="@+id/txtLastName"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/login_txt_padding"
+                android:background="@drawable/corners_white"
+                android:ems="10"
+                android:fontFamily="@string/altGlasgowLogo_SplashSreen"
+                android:hint="Last name"
+                android:inputType="textPersonName"
+                android:padding="@dimen/login_txt_padding"
+                android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp"
+                android:background="@drawable/corners_white"
+                android:ems="10"
+                android:fontFamily="@string/altGlasgowLogo_SplashSreen"
+                android:hint="Enter your email"
+                android:inputType="textPersonName"
+                android:padding="@dimen/login_txt_padding"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/login_txt_padding"
+                android:background="@drawable/corners_white"
+                android:ems="10"
+                android:fontFamily="@string/altGlasgowLogo_SplashSreen"
+                android:hint="Choose a Password"
+                android:inputType="textPassword"
+                android:padding="@dimen/login_txt_padding"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/txtConfPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/login_txt_padding"
+                android:background="@drawable/corners_white"
+                android:ems="10"
+                android:fontFamily="@string/altGlasgowLogo_SplashSreen"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:padding="@dimen/login_txt_padding"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lblErrorMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:textColor="#FF0000"
+            android:text="" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corners_accent"
+            android:onClick="btnConfirm_onClick"
+            android:layout_weight="1"
+            android:text="@string/btnRegister_LoginActivity"
+            android:textColor="@color/whiteText" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/corners_primary_dark"
+            android:onClick="btnGoBack_onClick"
+            android:layout_marginLeft="10dp"
+            android:text="Return to Login"
+            android:textColor="@color/whiteText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="event_list">
+        <item>Celtic Connections</item>
+        <item>Comedy Festival</item>
+        <item>Doors Open Day</item>
+        <item>West End Festival</item>
+    </string-array>
+</resources>

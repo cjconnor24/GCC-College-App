@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="museum_list">
+        <item>Pollok House</item>
+        <item>Provand\'s Lordship</item>
+        <item>Riverside Museum</item>
+        <item>Scottish Football Museum</item>
+    </string-array>
+</resources>
